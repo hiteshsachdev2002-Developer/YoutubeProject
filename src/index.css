@@ -13,6 +13,7 @@
   transition: box-shadow 0.3s ease;
 }
 .youtube-card {
+ 
   width: 320px;
   margin: 16px auto;
   font-family: sans-serif;
@@ -73,4 +74,15 @@
   font-size: 13px;
   color: #606060;
   margin: 2px 0;
+}
+
+.video-stats {
+  display: flex;
+  gap: 8px;
+}
+.youtube-card-content
+{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
 }
