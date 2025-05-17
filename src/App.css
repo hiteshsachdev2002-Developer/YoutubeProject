@@ -1,0 +1,42 @@
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  width: 100%;
+  max-width: 600px;
+  border-radius: 50px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  padding: 8px 12px;
+  transition: box-shadow 0.3s ease;
+}
+
+.search-container:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.search-input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  border-radius: 50px;
+  font-size: 16px;
+  background-color: transparent;
+}
+
+.search-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 8px 12px;
+  color: #333;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.search-button:hover {
+  color: #ff0000; /* YouTube red or any theme color */
+}
